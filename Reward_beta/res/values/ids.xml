@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="reward_info"></item>
+    <item type="id" name="reward_line_tag"></item>
+    <item type="id" name="reward_mine_tag"></item>
+    <item type="id" name="tag"></item>
+</resources>

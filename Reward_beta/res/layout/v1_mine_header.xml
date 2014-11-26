@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+	<RelativeLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp">
+	    <ImageView android:id="@+id/mine_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/defaulthead"/>
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginLeft="10dp"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/mine_img">
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="张晓北"/>
+	        <LinearLayout android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="信誉值："/>
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="10"/>
+	        </LinearLayout>
+	    </LinearLayout>
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/arrow_right" />
+
+	</RelativeLayout>
+   	<LinearLayout android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="10dp"
+   	    android:layout_marginRight="10dp"
+   	    android:orientation="horizontal">
+	    <FrameLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	        <TextView android:layout_width="match_parent"
+	   	        android:layout_height="40dp"
+	   	        android:text="我悬赏的"
+	   	        android:gravity="center"
+	   	        android:background="@color/grey_start"
+	   	        android:layout_margin="2dp"
+	   	        />
+	        <TextView android:layout_width="15dp"
+	            android:layout_height="15dp"
+	            android:gravity="center"
+	            android:layout_margin="2dp"
+	            android:text="1"
+	            android:layout_gravity="right|top"
+	            android:background="@color/grey_end"
+	            />
+	    </FrameLayout>
+	    <FrameLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	        <TextView android:layout_width="match_parent"
+	   	        android:layout_height="40dp"
+	   	        android:text="我领赏的"
+	   	        android:gravity="center"
+	   	        android:background="@color/grey_start"
+	   	        android:layout_margin="2dp"
+	   	        />
+	        <TextView android:layout_width="15dp"
+	            android:layout_height="15dp"
+	            android:gravity="center"
+	            android:layout_margin="2dp"
+	            android:text="1"
+	            android:layout_gravity="right|top"
+	            android:background="@color/grey_end"
+	            />
+	    </FrameLayout>
+   	</LinearLayout>
+   	<LinearLayout android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="10dp"
+   	    android:layout_marginRight="10dp"
+   	    android:orientation="horizontal">
+	    <FrameLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	        <TextView android:layout_width="match_parent"
+	   	        android:layout_height="40dp"
+	   	        android:text="我现卖的"
+	   	        android:gravity="center"
+	   	        android:background="@color/grey_start"
+	   	        android:layout_margin="2dp"
+	   	        />
+	        <TextView android:layout_width="15dp"
+	            android:layout_height="15dp"
+	            android:gravity="center"
+	            android:layout_margin="2dp"
+	            android:text="1"
+	            android:layout_gravity="right|top"
+	            android:background="@color/grey_end"
+	            />
+	    </FrameLayout>
+	    <FrameLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	        <TextView android:layout_width="match_parent"
+	   	        android:layout_height="40dp"
+	   	        android:text="我现买的"
+	   	        android:gravity="center"
+	   	        android:background="@color/grey_start"
+	   	        android:layout_margin="2dp"
+	   	        />
+	        <TextView android:layout_width="15dp"
+	            android:layout_height="15dp"
+	            android:gravity="center"
+	            android:layout_margin="2dp"
+	            android:text="1"
+	            android:layout_gravity="right|top"
+	            android:background="@color/grey_end"
+	            />
+	    </FrameLayout>
+   	</LinearLayout>
+</LinearLayout>

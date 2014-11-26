@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            >
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="悬赏人："
+                    android:textSize="17dp"
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张晓北"
+                    android:textSize="17dp"
+                    />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手机号："
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12888888888"
+                    />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="现卖次数："
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120"
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="爽约数："
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/defaulthead"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_margin="10dp"
+         android:padding="10dp"
+         android:background="@drawable/border"
+         >
+         <LinearLayout android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="赏金："
+                 android:textSize="17dp"
+                 />
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="100"
+                 android:textColor="@color/red"
+                 android:textSize="17dp"
+                 />
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="元"
+                 android:textSize="17dp"
+                 />
+             <TextView android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="+5积分"
+                 android:layout_marginRight="10dp"
+                 android:gravity="right"
+                 />
+         </LinearLayout>
+         <LinearLayout android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal">
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="等待截止时间：2014-11-6 22:18"
+                 />
+         </LinearLayout>
+         <LinearLayout android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal">
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="人数："
+                 />
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="16"
+                 />
+         </LinearLayout>
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_dddddd" />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="将太无二（金地中心）"
+             android:layout_margin="10dp"
+             android:textSize="17sp"
+             />
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_dddddd" />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="地址：阿达发生大事发生大事发生大事发生大事发生大是大非"
+             android:layout_margin="10dp"
+             />
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_dddddd" />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="特殊：我希望是个靠窗的位置"
+             android:layout_margin="10dp"
+             />
+         <TextView android:layout_width="130dp"
+             android:layout_height="50dp"
+             android:layout_margin="20dp"
+             android:text="支付"
+             android:gravity="center"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/button_orange_bg"
+             />
+     </LinearLayout>
+</LinearLayout>

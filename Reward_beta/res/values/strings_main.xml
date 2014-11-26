@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reward_tab">悬赏</string>
+    <string name="receive_tab">领赏</string>
+    <string name="mine_tab">我的</string>
+    <string name="buy_tab">现买</string>
+    <string name="sell_tab">现卖</string>
+    
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_F5F5F5"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.dzg.custom.widget.dropdownlist.DropdownListView
+        android:id="@+id/drop_list_1"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:visibility="gone" />
+
+    <com.dzg.custom.widget.dropdownlist.DropdownListView
+        android:id="@+id/drop_list_2"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:visibility="gone" />
+
+    <com.dzg.custom.widget.dropdownlist.DropdownListView
+        android:id="@+id/drop_list_3"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:visibility="gone" />
+
+    <EditText
+	    android:id="@+id/search_bar"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:background="@drawable/border2"
+	    android:hint="搜索：输入商户名、地点"
+	    android:singleLine="true"
+	    android:textSize="14sp"
+	    android:layout_margin="5dp"
+	    android:paddingLeft="5dp"
+	    android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/add_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/offer_detail_freight_template_inc"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

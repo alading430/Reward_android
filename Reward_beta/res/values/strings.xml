@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">领赏</string>
+	 <string name="forget_password"><u>忘记密码？</u></string>
+	 <string name="contentDescription">contentDescription</string>
+    <!-- 下面为底部按钮文案 -->
+    <string name="main_home">首页</string>
+    <string name="main_reward">悬赏</string>
+    <string name="main_receive">领赏</string>
+    <string name="main_mine">我的</string>
+    <string name="main_sell">现卖</string>
+    <string name="main_buy">现买</string>
+    <string name="main_create">发起拼单</string>
+    <string name="main_hot">找宝贝发拼单</string>
+    <string name="main_list">我的</string>
+    <string name="more">更多</string>
+    <string name="message">消息</string>
+    <string name="shanpin">闪拼</string>
+    <!-- 以下为12.24合并主干 dongyulong -->
+    <string name="Ensure">"确 定"</string>
+    <string name="Cancel">"取 消"</string>
+    <string name="Hide">隐藏</string>
+    <string name="Agree">同意</string>
+    <string name="Disagree">不同意</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+   
+
+</resources>

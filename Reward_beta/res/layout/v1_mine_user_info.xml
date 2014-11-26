@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        >
+        <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/defaulthead"
+            android:layout_marginLeft="15dp"
+            />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张晓北"
+                android:textSize="17dp"
+                />
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="信誉值："
+                    />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="领赏次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爽约次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="悬赏次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爽约次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="现买次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爽约次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="现卖次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爽约次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="投诉次数："/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_dddddd" />
+	
+	
+</LinearLayout>

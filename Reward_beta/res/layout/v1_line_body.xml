@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_F5F5F5"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/defaulthead"
+            />
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/grey_start"
+        android:gravity="center"
+        >
+        <ImageView android:id="@+id/find_persion_1" 
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/defaulthead"/>
+        
+        <ImageView android:id="@+id/find_persion_2" 
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/defaulthead"/>
+
+    </LinearLayout>
+    
+    <ListView android:id="@+id/line_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        />
+    
+</LinearLayout>

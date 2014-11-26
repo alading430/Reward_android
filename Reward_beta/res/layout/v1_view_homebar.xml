@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/maintab_toolbar_bg"
+    android:orientation="horizontal" >
+<!--     android:background="@drawable/maintab_toolbar_bg" -->
+<!--     <TextView -->
+<!--         android:id="@+id/button_home" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_width="0dp"/> -->
+<!--     <TextView -->
+<!--         style="@style/main_tab_bottom" -->
+<!--         android:id="@+id/button_reward" -->
+<!--         android:drawableTop="@drawable/reward_tab_bg" -->
+<!--          /> -->
+<!--     <TextView -->
+<!--         android:id="@+id/button_receive" -->
+<!--         style="@style/main_tab_bottom" -->
+<!--         android:drawableTop="@drawable/receive_tab_bg" -->
+<!--         /> -->
+<!--     <TextView -->
+<!--         android:id="@+id/button_mine" -->
+<!--         style="@style/main_tab_bottom" -->
+<!--         android:drawableTop="@drawable/mine_tab_bg" -->
+<!--         /> -->
+<!--     <TextView -->
+<!--         android:id="@+id/button_sell" -->
+<!--         style="@style/main_tab_bottom" -->
+<!--         android:drawableTop="@drawable/sell_tab_bg" -->
+<!--         /> -->
+<!--     <TextView -->
+<!--         android:id="@+id/button_buy" -->
+<!--         style="@style/main_tab_bottom" -->
+<!--         android:drawableTop="@drawable/buy_tab_bg" -->
+<!--         /> -->
+    <ImageView
+        android:id="@+id/button_home"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"/>
+<!--     <FrameLayout  -->
+<!--         style="@style/main_tab_bottom_bg" -->
+<!--         > -->
+        
+<!--     </FrameLayout> -->
+    <ImageView
+        style="@style/main_tab_bottom_bg"
+        android:id="@+id/button_reward"
+        android:src="@drawable/reward_tab_bg"
+         />
+    <ImageView
+        android:id="@+id/button_receive"
+        style="@style/main_tab_bottom_bg"
+        android:src="@drawable/receive_tab_bg"
+        />
+    <ImageView
+        android:id="@+id/button_mine"
+        style="@style/main_tab_bottom_bg"
+        android:src="@drawable/mine_tab_bg"
+        />
+    <ImageView
+        android:id="@+id/button_sell"
+        style="@style/main_tab_bottom_bg"
+        android:src="@drawable/sell_tab_bg"
+        />
+    <ImageView
+        android:id="@+id/button_buy"
+        style="@style/main_tab_bottom_bg"
+        android:src="@drawable/buy_tab_bg"
+        />
+</LinearLayout>
